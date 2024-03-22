@@ -35,14 +35,14 @@ You can install chevreul locally using the following steps:
 
 ``` r
 install.packages("devtools")
-devtools::install_github("whtns/chevreul")
+devtools::install_github("naibank/chevreul")
 chevreul::create_project_db()
 ```
 
 You can also customize the location of the app using these steps:
 
 ``` r
-devtools::install_github("whtns/chevreul")
+devtools::install_github("naibank/chevreul")
 chevreul::create_project_db(destdir = "/your/path/to/app")
 ```
 
